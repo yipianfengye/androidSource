@@ -1,7 +1,7 @@
 平时开发过程中我们通过android studio编写完成android项目之后直接点击 Run 'app'就可以在build/outputs/apk生成可以在android设备中安装的apk文件了，那么整个android源码的构建过程是怎么样的呢？
 
 我们可以根据Google官方提供的流程图来具体了解构建的过程：
-![](http://img.blog.csdn.net/20160204114932917)
+![image](http://img.blog.csdn.net/20160204114932917)
 
 通常的构建过程就是如上图所示，下面是具体描述：
 
