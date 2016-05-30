@@ -1,1 +1,3 @@
 # androidSource
+
+本项目主要用于分析android系统中framework层的源码流程，会不定时更新欢迎star和Fork。
