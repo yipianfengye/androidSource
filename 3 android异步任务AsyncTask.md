@@ -355,3 +355,7 @@ private void finish(Result result) {
 - 所有源码基于android23，中间有什么疏漏欢迎指正。
 
 
+另外对android源码解析方法感兴趣的可参考我的：
+<br><a href="http://blog.csdn.net/qq_23547831/article/details/50634435"> android源码解析之（一）-->android项目构建过程</a>
+<br><a href="http://blog.csdn.net/qq_23547831/article/details/50751687">android源码解析之（二）-->异步消息机制</a>
+<br><a href="http://blog.csdn.net/qq_23547831/article/details/50803849">android源码解析之（三）-->异步任务AsyncTask</a>
