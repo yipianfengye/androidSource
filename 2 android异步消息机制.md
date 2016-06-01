@@ -627,3 +627,7 @@ public final void runOnUiThread(Runnable action) {
 参考文章：
 http://blog.csdn.net/qq_23547831/article/details/41697039
 http://blog.csdn.net/qq_23547831/article/details/46482737
+
+另外对android源码解析方法感兴趣的可参考我的：
+<a href="http://blog.csdn.net/qq_23547831/article/details/50634435"> android源码解析之（一）-->android项目构建过程</a>
+<a href="http://blog.csdn.net/qq_23547831/article/details/50751687">android源码解析之（二）-->异步消息机制</a>
