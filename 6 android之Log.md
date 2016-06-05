@@ -1,4 +1,4 @@
-首先说点题外话，对于想学android framework源码的同学，其实可以在github中fork一份，具体地址：https://github.com/android/platform_frameworks_base
+首先说点题外话，对于想学android framework源码的同学，其实可以在github中fork一份，具体地址：<a href="https://github.com/android/platform_frameworks_base">platform_frameworks_base</a>
 这里面基本都是android framework层的源码了。而且最近发现了一个比较不错的github插件：OctoTree，它 是一个浏览器插件，它可以让你在Github 看代码时，左边栏会出现一个树状结构，就像我们在IDE 一样。当我们看一个项目的结构，或者想看具体的某个文件，这样就会很方便。
 ![image](http://img.blog.csdn.net/20160323143543308)
 
@@ -220,7 +220,7 @@ public final class Log {
 
 - Log.java中定义了六种日志级别，但是我们通常只是使用其中的五种日志级别，分别对应着VERBOSE、DEBUG、INFO、WARN、ERROR，在具体的使用场景下具体分析；
 
-- 有些同学对android自带的日志框架不太满意，主要是无法定位日志位置，这里可以查看我写的一篇实现自定义日志框架的文章：http://blog.csdn.net/qq_23547831/article/details/50600373
+- 有些同学对android自带的日志框架不太满意，主要是无法定位日志位置，这里可以查看我写的一篇实现自定义日志框架的文章：<a href="http://blog.csdn.net/qq_23547831/article/details/50600373">自己实现android的日志框架</a>
 
 日志可以个性化的展示相关信息：
 ![这里写图片描述](http://img.blog.csdn.net/20160323145153421)
