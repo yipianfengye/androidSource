@@ -176,7 +176,7 @@ public abstract class IntentService extends Service {
         mServiceHandler = new ServiceHandler(mServiceLooper);
     }
 ```
-我们可以发现其内部定义一个HandlerIThread（本质上是一个含有消息队列的线程）具体可参考：http://blog.csdn.net/qq_23547831/article/details/50936584
+我们可以发现其内部定义一个HandlerIThread（本质上是一个含有消息队列的线程）具体可参考：<a href="http://blog.csdn.net/qq_23547831/article/details/50936584">android源码解析之（四）-->HandlerThread</a>
 然后用成员变量维护其Looper和Handler，由于其Handler关联着这个HandlerThread的Looper对象，所以Handler的handMessage方法在HandlerThread线程中执行。
 
 然后我们发现其onStartCommand方法就是调用的其onStart方法，具体看一下其onStart方法：
