@@ -298,7 +298,7 @@ private Result postResult(Result result) {
     }
 ```
 这里可以看到起调用了内部的Handler对象的sendToTarget方法，发送异步消息，具体handler相关的内容可以参考：
-http://blog.csdn.net/qq_23547831/article/details/50751687
+<a href="http://blog.csdn.net/qq_23547831/article/details/50751687"> android源码解析之（二）-->异步消息机制</a>
 
 追踪代码，可以查看AsyncTask内部定义了一个Handler对象：
 
