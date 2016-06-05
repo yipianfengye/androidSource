@@ -63,7 +63,7 @@ public HandlerThread(String name) {
         mTid = -1;
     }
 ```
-我们发现其内部调用了Looper.prepate()方法和Loop.loop()方法，熟悉android异步消息机制的童鞋应当知道，在android体系中一个线程其实是对应着一个Looper对象、一个MessageQueue对象，以及N个Handler对象，具体可参考：http://blog.csdn.net/qq_23547831/article/details/50751687
+我们发现其内部调用了Looper.prepate()方法和Loop.loop()方法，熟悉android异步消息机制的童鞋应当知道，在android体系中一个线程其实是对应着一个Looper对象、一个MessageQueue对象，以及N个Handler对象，具体可参考：<a href="http://blog.csdn.net/qq_23547831/article/details/50751687"> android源码解析之（二）-->异步消息机制</a>
 
 所以通过run方法，我们可以知道在我们创建的HandlerThread线程中我们创建了该线程的Looper与MessageQueue；
 
