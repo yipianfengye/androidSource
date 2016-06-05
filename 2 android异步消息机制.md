@@ -1,4 +1,4 @@
-知乎上看了一篇非常不错的博文：http://zhuanlan.zhihu.com/kaede/20563936
+知乎上看了一篇非常不错的博文：<a href="http://zhuanlan.zhihu.com/kaede/20563936">有没有必要阅读ANDROID源码</a>
 痛定思过，为了更好的深入android体系，决定学习android framework层源码，就从最简单的android异步消息机制开始吧。
 
 **（一）Handler的常规使用方式**
@@ -186,7 +186,7 @@ Looper.loop();
         sThreadLocal.set(new Looper(quitAllowed));
     }
 ```
-可以看到Looper中有一个ThreadLocal成员变量，熟悉JDK的同学应该知道，当使用ThreadLocal维护变量时，ThreadLocal为每个使用该变量的线程提供独立的变量副本，所以每一个线程都可以独立地改变自己的副本，而不会影响其它线程所对应的副本。具体参考：http://blog.csdn.net/lufeng20/article/details/24314381
+可以看到Looper中有一个ThreadLocal成员变量，熟悉JDK的同学应该知道，当使用ThreadLocal维护变量时，ThreadLocal为每个使用该变量的线程提供独立的变量副本，所以每一个线程都可以独立地改变自己的副本，而不会影响其它线程所对应的副本。具体参考：<a href="http://blog.csdn.net/lufeng20/article/details/24314381">彻底理解ThreadLocal</a>
 由此可以看出在每个线程中Looper.prepare()能且只能调用一次，这里我们可以尝试一下调用两次的情况。
 
 ```
@@ -625,8 +625,8 @@ public final void runOnUiThread(Runnable action) {
 
 
 参考文章：
-http://blog.csdn.net/qq_23547831/article/details/41697039
-http://blog.csdn.net/qq_23547831/article/details/46482737
+<br><a href="http://blog.csdn.net/guolin_blog/article/details/9991569">Android异步消息处理机制完全解析，带你从源码的角度彻底理解</a>
+<br><a href="http://blog.csdn.net/yanbober/article/details/45936145"> Android异步消息处理机制详解及源码分析</a>
 
 另外对android源码解析方法感兴趣的可参考我的：
 <br><a href="http://blog.csdn.net/qq_23547831/article/details/50634435"> android源码解析之（一）-->android项目构建过程</a>
