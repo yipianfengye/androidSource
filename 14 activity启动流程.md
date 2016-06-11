@@ -1,5 +1,3 @@
-> 转载请标明出处：<a href="http://blog.csdn.net/qq_23547831/article/details/51224992">一片枫叶的专栏</a>
-
 好吧，终于要开始讲解Activity的启动流程了，Activity的启动流程相对复杂一下，涉及到了Activity中的生命周期方法，涉及到了Android体系的CS模式，涉及到了Android中进程通讯Binder机制等等，
 
 首先介绍一下Activity，这里引用一下Android guide中对Activity的介绍：
