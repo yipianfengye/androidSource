@@ -29,3 +29,4 @@
 <br><a href="http://blog.csdn.net/qq_23547831/article/details/51464535">android源码解析（二十四）-->onSaveInstanceState执行时机</a>
 <br><a href="http://blog.csdn.net/qq_23547831/article/details/51465071">android源码解析（二十五）-->onLowMemory执行流程</a>
 <br><a href="http://blog.csdn.net/qq_23547831/article/details/51474288">android源码解析（二十六）-->截屏事件流程</a>
+<br><a href="http://blog.csdn.net/qq_23547831/article/details/51475929">android源码解析（二十七）-->HOME事件流程</a>
