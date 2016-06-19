@@ -32,3 +32,4 @@
 <br><a href="http://blog.csdn.net/qq_23547831/article/details/51475929">android源码解析（二十七）-->HOME事件流程</a>
 <br><a href="http://blog.csdn.net/qq_23547831/article/details/51487978">android源码解析（二十八）-->电源开关机按键事件流程</a>
 <br><a href="http://blog.csdn.net/qq_23547831/article/details/51513771">android源码解析（二十九）-->应用程序返回按键执行流程</a>
+<br><a href="http://blog.csdn.net/qq_23547831/article/details/51530671">android源码解析（三十）-->触摸事件分发流程</a>
