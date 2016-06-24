@@ -1,6 +1,6 @@
 # androidSource
 
-本项目主要用于分析android系统中framework层的源码流程，会不定时更新欢迎star和Fork。
+本项目主要用于分析android系统中framework层的源码流程，会不定时更新，欢迎star和Fork。
 
 也可以在我的CSDN博客地址中观看：
 <br><a href="http://blog.csdn.net/qq_23547831/article/details/50634435">android源码解析之（一）-->android项目构建过程</a>
