@@ -220,10 +220,10 @@ public final class Log {
 
 - Log.java中定义了六种日志级别，但是我们通常只是使用其中的五种日志级别，分别对应着VERBOSE、DEBUG、INFO、WARN、ERROR，在具体的使用场景下具体分析；
 
-- 有些同学对android自带的日志框架不太满意，主要是无法定位日志位置，这里可以查看我写的一篇实现自定义日志框架的文章：<a href="http://blog.csdn.net/qq_23547831/article/details/50600373">自己实现android的日志框架</a>
+- 有些同学对android自带的日志框架不太满意，主要是无法定位日志位置，这里可以查看我写的一篇实现自定义日志框架的文章：<a href="http://blog.csdn.net/qq_23547831/article/details/51707796">github项目解析（五）-->android日志框架</a>
 
 日志可以个性化的展示相关信息：
-![这里写图片描述](http://img.blog.csdn.net/20160323145153421)
+![image](http://img.blog.csdn.net/20160323145153421)
 
 
 另外对android源码解析方法感兴趣的可参考我的：
