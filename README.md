@@ -1,3 +1,6 @@
+# androidSource
+
+
 知乎上看了一篇非常不错的博文：<a href="http://zhuanlan.zhihu.com/kaede/20563936">有没有必要阅读ANDROID源码</a>
 看完之后痛定思过，平时所学往往是知其然然不知其所以然，所以为了更好的深入android体系，决定学习android framework层源码。这篇文章就是源码学习的汇总篇，包含学习源码的流程，文章列表等等，会根据学习的进度不定时更新。
 
